@@ -15,15 +15,15 @@ class ContactPage extends StatefulWidget {
 class _ContactPageState extends State<ContactPage> {
   List<dynamic> _contacts = [
     {
-      'name': 'John',
+      'name': 'Marc',
       'avatar': 'assets/images/avatar-1.png',
     },
     {
-      'name': 'Samantha',
+      'name': 'Secongo',
       'avatar': 'assets/images/avatar-2.png',
     },
     {
-      'name': 'Mary',
+      'name': 'Divine',
       'avatar': 'assets/images/avatar-3.png',
     },
     {

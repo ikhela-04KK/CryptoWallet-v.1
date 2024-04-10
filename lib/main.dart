@@ -21,9 +21,13 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+
   late ScrollController _scrollController;
   bool _isScrolled = false;
 
+  // creation d'une liste dynamic pour les différentes icons de menu
+  // definition d'un fichier underscore pour quelle soit uniquement utilisé dans le fichier dans lequel
   List<dynamic> _services = [
     ['Transfer', Iconsax.export_1, Colors.blue],
     ['Top-up', Iconsax.import, Colors.pink],
